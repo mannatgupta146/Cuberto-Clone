@@ -12,7 +12,7 @@ html,body{
 
 #main{
     width: 100%;
-    background-color: aliceblue;
+    background-color: #fff;
 }
 
 #home{
@@ -79,17 +79,32 @@ html,body{
 }
 
 #homelast{
-    padding: 5vw 16vw;
+    padding: 7vw 16vw;
 }
 
 #homelast p{
     width: 68%;
     font-size: 1.4vw;
-    font-weight: 400;
+    font-weight: 200;
     letter-spacing: -.05vw;
 }
 
 #homelast p::selection{
     background-color: #000;
     color: #fff;
+}
+
+#featured{
+    padding: 10vw 14vw;
+}
+
+#featured h1{
+    font-size: 3.5vw;
+    font-weight: 400;
+    font-family: "Atlassian Sans";
+}
+
+#featured h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;  
 }
