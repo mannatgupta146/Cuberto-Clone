@@ -51,3 +51,45 @@ html,body{
     margin-top: 3px;
     font-size: 25px;
 }
+
+#home #homemain{
+    width: 100%;
+    padding: 12vw 16vw;
+}
+
+#homemain h1{
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    font-family: "Atlassian Sans";
+    font-size: 1.5vw;
+}
+
+.headings{
+    display: flex;
+    gap: 30px;
+}
+
+#homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #000;  
+    font-size: 5vw;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -3px;
+}
+
+#homelast{
+    padding: 5vw 16vw;
+}
+
+#homelast p{
+    width: 68%;
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.05vw;
+}
+
+#homelast p::selection{
+    background-color: #000;
+    color: #fff;
+}
