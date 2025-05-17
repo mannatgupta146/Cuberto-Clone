@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Flex";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+#nav img{
+    width: 100px;
+}
+
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    font-size: 1.4vw;
+    letter-spacing: -1px;
+}
+
+#nav i{
+    margin-top: 3px;
+    font-size: 25px;
+}
