@@ -83,6 +83,10 @@ html,body{
     letter-spacing: -3px;
 }
 
+#homemain .headings h1:hover{
+    color: #000; 
+}
+
 #homelast{
     padding: 7vw 16vw;
 }
@@ -161,6 +165,13 @@ html,body{
 #fright .images{
     width: 90%;
     height: 90%;
+}
+
+#fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .btn{
