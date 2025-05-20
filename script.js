@@ -1,4 +1,4 @@
 
 
 Shery.mouseFollower();
-Shery.makeMagnet(".magnet");
+Shery.makeMagnet(".magnet, #logo");
