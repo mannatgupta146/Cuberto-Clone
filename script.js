@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const sections = gsap.utils.toArray(".fleftelem");  
 
   Shery.imageEffect(".images", {
-    style: 4,                                   
+    style: 5,                                   
     slideStyle: (setScroll) => {
       sections.forEach((section, index) => {
         ScrollTrigger.create({
