@@ -154,6 +154,10 @@ html,body{
     font-weight: 300;
 }
 
+.fleftelem h4{
+     font-weight: 300;
+}
+
 #fright{
     width: 45%;
     display: flex;
