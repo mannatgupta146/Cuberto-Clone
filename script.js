@@ -14,3 +14,24 @@ gsap.to(".fleftelem",{
 y: "-300%",
 ease: Power1
 })
+
+window.addEventListener("DOMContentLoaded", () => {
+  gsap.registerPlugin(ScrollTrigger);          
+
+  const sections = gsap.utils.toArray(".fleftelem");  
+
+  Shery.imageEffect(".images", {
+    style: 4,                                   
+    slideStyle: (setScroll) => {
+      sections.forEach((section, index) => {
+        ScrollTrigger.create({
+          trigger: section,
+          start: "top top",
+          end: () => `+=${section.offsetHeight}`, 
+          scrub: 1,
+          onUpdate: (self) => setScroll(index + self.progress)
+        });
+      });
+    }
+  });
+});
