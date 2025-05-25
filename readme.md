@@ -15,14 +15,6 @@ This clone replicates the elegant and dynamic feel of Cuberto’s landing page. 
 - Interactive hover effects with video playback support
 - Responsive design with fluid typography and flexible layouts
 - Clean, minimalistic aesthetic with focus on usability and performance
-\
-
-## Technologies Used
-
-- HTML5 & CSS3 (Flexbox, custom fonts, selection styling)
-- JavaScript (ES6)
-- [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
-- [Shery.js](https://github.com/sheryianscodingschool/sheryjs)
 
 
 ## How to Use
@@ -31,6 +23,14 @@ This clone replicates the elegant and dynamic feel of Cuberto’s landing page. 
 - Hover over `.magnet` and `.logo` elements for magnet effects.
 - Hover over `.hvr` elements to trigger video previews.
 - Experience smooth transitions and layout changes.
+
+## Technologies Used
+
+- HTML5 & CSS3 (Flexbox, custom fonts, selection styling)
+- JavaScript (ES6)
+- [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
+- [Shery.js](https://github.com/sheryianscodingschool/sheryjs)
+
 
 ## How to Contribute
 
@@ -42,6 +42,15 @@ Contributions are welcome! Feel free to:
 - Improve responsiveness or accessibility
 
 Please ensure code quality and test your changes before submitting.
+
+## Learning Resource
+
+This project builds upon excellent tutorials from YouTube — a highly recommended channel for anyone wanting to learn:  
+[Watch Tutorial](https://youtu.be/pv60QrlO4yM?si=3TpAjBnSZhHR6p-I)
+
+## Stay Connected
+
+Questions, feedback, or collaboration? Reach out anytime!
 
 ---
 **“Thanks a lot! If you enjoyed this, check out my other creations.”**
