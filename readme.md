@@ -22,7 +22,7 @@ This clone replicates the elegant and dynamic feel of Cuberto’s landing page. 
 - HTML5 & CSS3 (Flexbox, custom fonts, selection styling)
 - JavaScript (ES6)
 - [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
-- [Shery.js](https://github.com/Shery)
+- [Shery.js](https://github.com/sheryianscodingschool/sheryjs)
 
 
 ## How to Use
